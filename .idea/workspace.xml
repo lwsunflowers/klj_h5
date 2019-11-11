@@ -56,8 +56,8 @@
       <file leaf-file-name="editPsd.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/editPsd.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state relative-caret-position="133">
+              <caret line="7" column="9" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="7" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -65,8 +65,8 @@
       <file leaf-file-name="sendMsg.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/map/sendMsg.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="63" column="49" lean-forward="true" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+            <state relative-caret-position="602">
+              <caret line="68" column="10" lean-forward="true" selection-start-line="62" selection-start-column="4" selection-end-line="68" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -76,11 +76,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message_add.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="message_add.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/message_add.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="53" column="46" lean-forward="true" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+            <state relative-caret-position="550">
+              <caret line="58" column="7" lean-forward="true" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/map/trail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="64" column="65" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="65" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trail.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/trail.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="554">
+              <caret line="161" column="1" lean-forward="true" selection-start-line="161" selection-start-column="1" selection-end-line="161" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -100,9 +125,10 @@
       <find>sliderHandler</find>
       <find>datePlugin</find>
       <find>dummyStyle</find>
-      <find />
+      <find>page__bd img</find>
       <find>markers</find>
       <find>content</find>
+      <find>percent</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -125,9 +151,7 @@
         <option value="$PROJECT_DIR$/js/personalInfo.js" />
         <option value="$PROJECT_DIR$/js/datePicker.js" />
         <option value="$PROJECT_DIR$/js/iscroll.js" />
-        <option value="$PROJECT_DIR$/js/trail.js" />
         <option value="$PROJECT_DIR$/css/example.css" />
-        <option value="$PROJECT_DIR$/pages/map/trail.html" />
         <option value="$PROJECT_DIR$/pages/message/message_details.html" />
         <option value="$PROJECT_DIR$/css/my.css" />
         <option value="$PROJECT_DIR$/pages/my/personalInfo.html" />
@@ -149,9 +173,11 @@
         <option value="$PROJECT_DIR$/pages/message/message_add.html" />
         <option value="$PROJECT_DIR$/pages/map/position_area.html" />
         <option value="$PROJECT_DIR$/pages/my/editPsd.html" />
-        <option value="$PROJECT_DIR$/js/editPsd.js" />
         <option value="$PROJECT_DIR$/pages/my/my_index.html" />
         <option value="$PROJECT_DIR$/pages/map/sendMsg.html" />
+        <option value="$PROJECT_DIR$/js/editPsd.js" />
+        <option value="$PROJECT_DIR$/pages/map/trail.html" />
+        <option value="$PROJECT_DIR$/js/trail.js" />
       </list>
     </option>
   </component>
@@ -182,6 +208,17 @@
             <path>
               <item name="klj_weui" type="b2602c69:ProjectViewProjectNode" />
               <item name="klj_weui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="klj_weui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="klj_weui" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="klj_weui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="klj_weui" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -235,24 +272,25 @@
       <workItem from="1573023164286" duration="9588000" />
       <workItem from="1573086774490" duration="23904000" />
       <workItem from="1573173463748" duration="22061000" />
-      <workItem from="1573432217755" duration="12926000" />
+      <workItem from="1573432217755" duration="16192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68479000" />
+    <option name="totallyTimeSpent" value="71745000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13277134" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13277134" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" visible="true" weight="0.0" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -319,24 +357,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/trail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/example.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="1161" selection-start-column="1161" selection-end-column="1161" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/map/trail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="97" />
         </state>
       </provider>
     </entry>
@@ -564,13 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/editPsd.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/my/editPsd.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -592,10 +609,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/message_add.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="58" column="7" lean-forward="true" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/map/sendMsg.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="63" column="49" lean-forward="true" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+        <state relative-caret-position="602">
+          <caret line="68" column="10" lean-forward="true" selection-start-line="62" selection-start-column="4" selection-end-line="68" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -604,10 +628,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/message_add.js">
+    <entry file="file://$PROJECT_DIR$/js/editPsd.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="53" column="46" lean-forward="true" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+        <state relative-caret-position="133">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/map/trail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="64" column="65" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/trail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="161" column="1" lean-forward="true" selection-start-line="161" selection-start-column="1" selection-end-line="161" selection-end-column="1" />
         </state>
       </provider>
     </entry>

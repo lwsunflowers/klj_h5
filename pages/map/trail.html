@@ -31,10 +31,10 @@
                         <div class="weui-cell">
                             <div class="weui-cell__hd"><label class="weui-label">选择车辆</label></div>
                             <div class="weui-cell__bd">
-                                <input class="weui-input" autofocus type="text" value="晋M12343"/>
+                                <input class="weui-input" id="car" autofocus type="text" value="晋M12343"/>
                             </div>
                             <div class="weui-cell__ft">
-                                <button class="weui-btn weui-btn_default weui-btn_mini">确定</button>
+                                <button class="weui-btn weui-btn_default weui-btn_mini" id="submitButton">确定</button>
                             </div>
                         </div>
                         <div class="weui-cell">
@@ -62,6 +62,7 @@
                                         <div id="sliderInner" class="weui-slider__inner">
                                             <div id="sliderTrack" style="width: 50%;" class="weui-slider__track"></div>
                                             <div id="sliderHandler" style="left: 50%;" class="weui-slider__handler"></div>
+                                            <span id="percentData" style="display: none"></span>
                                         </div>
                                     </div>
                                     <div id="sliderValue" class="weui-slider-box__value">正常</div>
@@ -74,6 +75,13 @@
                     <!--</div>-->
                 </div>
             </div>
+            <div id="toast" style="display: none;">
+                <div class="weui-mask_transparent"></div>
+                <div class="weui-toast">
+                    <i class="weui-icon-warn weui-icon_toast"></i>
+                    <p class="weui-toast__content">请检查表单内容</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -84,5 +92,6 @@
 <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=Uf9EolGIGFGD4p6DuzT6e0mhqTm1wtt6"></script>
 <script type="text/javascript" src="http://api.map.baidu.com/library/TrafficControl/1.4/src/TrafficControl_min.js"></script>
 <script type="text/javascript" src="http://api.map.baidu.com/library/MarkerClusterer/1.2/src/MarkerClusterer_min.js"></script>
+<script type="text/javascript" src="../../js/index.js"></script>
 <script type="text/javascript" src="../../js/trail.js"></script>
 </html>

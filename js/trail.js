@@ -74,10 +74,8 @@ $(function(){
             }else{
                 $sliderValue.text("正常");
             }
-
-            e.preventDefault();
-        })
-    ;
+            $("#percentData").text(percent);
+        });
 });
 /**
  * 弹框
@@ -162,3 +160,12 @@ function show_expect_time_picker(_this, date) {
         id: 'ma_expect_time'
     });
 }
+var car=$("#car").val();
+var beginDate=$("#beginDate").val();
+var endDate=$("#endDate").val();
+$('#submitButton').on('click', function () {
+    var percentData=$("#percentData")[0].innerText;
+    if(car==""||beginDate==""||endDate==""||percentData==""){
+        toast();
+    }
+});
