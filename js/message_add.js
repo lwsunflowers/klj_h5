@@ -12,6 +12,7 @@ $("#reciever").click(function(){
     }], {
         onChange: function (result) {
             console.log(result);
+            $("#reciever").val(result[0].label)
         },
         onConfirm: function (result) {
             console.log(result);
@@ -29,6 +30,7 @@ $("#sendTime").click(function(){
     }], {
         onChange: function (result) {
             console.log(result);
+            $("#sendTime").val(result[0].label)
         },
         onConfirm: function (result) {
             console.log(result);
@@ -49,9 +51,21 @@ $("#sendNum").click(function(){
     }], {
         onChange: function (result) {
             console.log(result);
+            $("#sendNum").val(result[0].label)
         },
         onConfirm: function (result) {
             console.log(result);
         }
     });
+});
+//表单验证
+var title=$("#title").val();
+var content=$("#content").val();
+var reciever=$("#reciever").val();
+var sendTime=$("#sendTime").val();
+var sendNum=$("#sendNum").val();
+$("#submitButton").click(function(){
+    if(title==""||content==""||reciever==""||sendTime==""||sendNum==""){
+        toast();
+    }
 });

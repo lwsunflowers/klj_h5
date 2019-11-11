@@ -52,12 +52,15 @@ $(function(){
 // 出现提示
 function toast(mark){
     var $toast = $('#toast');
-    $('#submitButton').on('click', function(){
-        if ($toast.css('display') != 'none') return;
+    if(mark){
+        $('#toast .weui-toast__content').text(mark);
+    }else{
+        $('#toast .weui-toast__content').text("请检查表单内容");
+    }
 
-        $toast.fadeIn(100);
-        setTimeout(function () {
-            $toast.fadeOut(100);
-        }, 2000);
-    });
+    if ($toast.css('display') != 'none') return;
+    $toast.fadeIn(100);
+    setTimeout(function () {
+        $toast.fadeOut(100);
+    }, 2000);
 }

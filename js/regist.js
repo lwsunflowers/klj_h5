@@ -1,11 +1,25 @@
 $(function(){
+    var userName=$("#userName").val();
+    var tel=$("#tel").val();
+    var verCode=$("#verCode").val();
+    var passWord=$("#passWord").val();
+    var surePassWord=$("#surePassWord").val();
     $("#weuiAgreeCheckbox").click(function(){
         if($('#weuiAgreeCheckbox').is(':checked')){
             $("#submitButton").removeClass("weui-btn_disabled");
-            console.log(11);
         }
         else{
             $("#submitButton").addClass("weui-btn_disabled")
+        }
+    });
+    $("#submitButton").click(function(){
+        if(userName==""||tel==""||verCode==""||passWord==""||surePassWord==""){
+            toast();
+        }
+    });
+    $("#getCode").click(function(){
+        if(tel==""){
+            toast("请输入电话号码");
         }
     });
 });

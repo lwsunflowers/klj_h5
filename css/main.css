@@ -6,6 +6,10 @@
 .weui-navbar{
     background-color:#F7F7F7 !important;
 }
+.weui-tabbar__icon{
+    width:20px !important;
+    height:20px !important
+}
 /*返回箭头*/
 .pull-left,.pull-right{
     padding: 16px 0px;
