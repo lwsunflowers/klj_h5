@@ -100,7 +100,7 @@
       <find>sliderHandler</find>
       <find>datePlugin</find>
       <find>dummyStyle</find>
-      <find>page__bd img</find>
+      <find />
       <find>markers</find>
       <find>content</find>
     </findStrings>
@@ -235,15 +235,15 @@
       <workItem from="1573023164286" duration="9588000" />
       <workItem from="1573086774490" duration="23904000" />
       <workItem from="1573173463748" duration="22061000" />
-      <workItem from="1573432217755" duration="12328000" />
+      <workItem from="1573432217755" duration="12926000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67881000" />
+    <option name="totallyTimeSpent" value="68479000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13277134" />
       <window_info anchor="bottom" id="TODO" order="6" />
