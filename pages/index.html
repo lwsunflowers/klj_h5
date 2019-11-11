@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+    <title>WeUI</title>
+    <link rel="stylesheet" href="../css/weui.css"/>
+    <link rel="stylesheet" href="../css/example.css"/>
+    <link rel="stylesheet" href="../css/main.css"/>
+    <link href="http://api.map.baidu.com/library/TrafficControl/1.4/src/TrafficControl_min.css" rel="stylesheet" type="text/css" />
+</head>
+<body ontouchstart>
+<div class="page js_container" id="container">
+
+    <div class="page__bd page js_show home" style="height: 100%;">
+        <div class="weui-tab">
+            <div class="weui-navbar">
+                <div class="weui-navbar__item">
+                    首页
+                </div>
+            </div>
+            <div class="weui-tab__panel page__bd companyList">
+                <div class="weui-search-bar" id="searchBar">
+                    <form class="weui-search-bar__form">
+                        <div class="weui-search-bar__box">
+                            <i class="weui-icon-search"></i>
+                            <input type="search" class="weui-search-bar__input" id="searchInput" placeholder="搜索" required/>
+                            <a href="javascript:" class="weui-icon-clear" id="searchClear"></a>
+                        </div>
+                        <label class="weui-search-bar__label" id="searchText">
+                            <i class="weui-icon-search"></i>
+                            <span>搜索</span>
+                        </label>
+                    </form>
+                    <a href="javascript:" class="weui-search-bar__cancel-btn" id="searchCancel">取消</a>
+                </div>
+                <ul>
+                    <li>
+                        <div class="weui-flex js_category">
+                            <p class="weui-flex__item">吉宏物流</p>
+                            <img src="../images/icon_nav_form.png" alt="">
+                        </div>
+                        <div class="page__category js_categoryInner" data-height="280" style="">
+                            <div class="weui-cells page__category-content">
+                                <a class="weui-cell weui-cell_access js_item" data-id="button" href="map/position_area.html">
+                                    <div class="weui-cell__bd">
+                                        <p>全部车辆</p>
+                                    </div>
+                                    <div class="weui-cell__ft"></div>
+                                </a>
+                                <a class="weui-cell weui-cell_access js_item" data-id="form" href="javascript:;">
+                                    <div class="weui-cell__bd">
+                                        <p>晋M12341</p>
+                                    </div>
+                                    <div class="weui-cell__ft"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="weui-flex js_category">
+                            <p class="weui-flex__item">鑫源洗煤</p>
+                            <img src="../images/icon_nav_form.png" alt="">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="weui-tabbar">
+                <a href="javascript:;" class="weui-tabbar__item weui-bar__item_on">
+                    <span style="display: inline-block;position: relative;">
+                        <img src="../images/icon_tabbar.png" alt="" class="weui-tabbar__icon">
+                    </span>
+                    <p class="weui-tabbar__label">首页</p>
+                </a>
+                <a href="message/message.html" class="weui-tabbar__item">
+                    <img src="../images/icon_tabbar.png" alt="" class="weui-tabbar__icon">
+                    <p class="weui-tabbar__label">消息</p>
+                </a>
+                <a href="my/my_index.html" class="weui-tabbar__item">
+                    <img src="../images/icon_tabbar.png" alt="" class="weui-tabbar__icon">
+                    <p class="weui-tabbar__label">我的</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="../js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script src="https://res.wx.qq.com/open/libs/weuijs/1.2.1/weui.min.js"></script>
+<!--<script src="../js/example.js"></script>-->
+<script src="../js/index.js"></script>
+</html>

@@ -1,0 +1,11 @@
+$(function(){
+    $("#weuiAgreeCheckbox").click(function(){
+        if($('#weuiAgreeCheckbox').is(':checked')){
+            $("#submitButton").removeClass("weui-btn_disabled");
+            console.log(11);
+        }
+        else{
+            $("#submitButton").addClass("weui-btn_disabled")
+        }
+    });
+});

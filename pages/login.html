@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+    <title>WeUI</title>
+    <link rel="stylesheet" href="../css/weui.css"/>
+    <link rel="stylesheet" href="../css/example.css"/>
+    <link rel="stylesheet" href="../css/main.css"/>
+    <link href="http://api.map.baidu.com/library/TrafficControl/1.4/src/TrafficControl_min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="page">
+    <div class="weui-form">
+        <div class="weui-form__text-area">
+            <h2 class="weui-form__title">登录</h2>
+        </div>
+        <div class="weui-form__control-area">
+            <div class="weui-cells__group weui-cells__group_form">
+                <div class="weui-cells weui-cells_form">
+                    <div class="weui-cell">
+                        <div class="weui-cell__hd"><label class="weui-label">帐号</label></div>
+                        <div class="weui-cell__bd">
+                            <input class="weui-input" id="userName" autofocus type="text" pattern="[0-9]*" placeholder="请输入帐号" maxlength="16" />
+                            <button class="weui-btn_reset weui-btn_icon weui-btn_input-clear">
+                                <i class="weui-icon-clear"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="weui-cell">
+                        <div class="weui-cell__hd"><label class="weui-label">密码</label></div>
+                        <div class="weui-cell__bd">
+                            <input class="weui-input" id="userPassword" autofocus type="password" pattern="[0-9]*" placeholder="请输入密码" maxlength="16" />
+                            <button class="weui-btn_reset weui-btn_icon weui-btn_input-clear">
+                                <i class="weui-icon-clear"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="weui-flex weui-cell">
+                    <div class="weui-flex__item"><a class="placeholder" href="forgetPsd.html">忘记密码？</a></div>
+                    <div class="weui-flex__item"><a class="placeholder" href="regist.html" style="float: right">注册</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="weui-form__opr-area">
+            <a class="weui-btn weui-btn_primary" id="submitButton" >确定</a>
+        </div>
+    </div>
+    <div id="toast" style="display: none;">
+        <div class="weui-mask_transparent"></div>
+        <div class="weui-toast">
+            <i class="weui-icon-success-no-circle weui-icon_toast"></i>
+            <p class="weui-toast__content">已完成</p>
+        </div>
+    </div>
+</div>
+</body>
+<script src="../js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script src="https://res.wx.qq.com/open/libs/weuijs/1.2.1/weui.min.js"></script>
+<script src="../js/index.js"></script>
+<script src="../js/login.js"></script>
+</html>

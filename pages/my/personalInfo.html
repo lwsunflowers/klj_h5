@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+    <title>WeUI</title>
+    <link rel="stylesheet" href="../../css/weui.css"/>
+    <link rel="stylesheet" href="../../css/example.css"/>
+    <link rel="stylesheet" href="../../css/main.css"/>
+    <link rel="stylesheet" href="../../css/my.css"/>
+    <link href="http://api.map.baidu.com/library/TrafficControl/1.4/src/TrafficControl_min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="page">
+    <div class="page__bd page js_show home" style="height: 100%;">
+        <div class="weui-tab">
+            <div class="weui-navbar">
+                <a class="pull-left weui-icon-back-arrow-thin" href="javascript:history.back(-1)">></a>
+                <div class="weui-navbar__item">
+                    个人信息
+                </div>
+                <a class="pull-right "></a>
+            </div>
+            <div class="weui-tab__panel">
+                <div class="weui-panel__bd">
+                    <a class="weui-cell weui-cell_access js_item personalImg_cell" data-id="button" href="javascript:;">
+                        <div class="weui-cell__bd">
+                            <p>头像</p>
+                        </div>
+                        <div class="weui-cell__ft personalImg">
+                            <img src="../../images/pic_160.png"/>
+                        </div>
+                    </a>
+                    <a class="weui-cell weui-cell_access js_item" data-id="button" href="editName.html">
+                        <div class="weui-cell__bd">
+                            <p>账号名称</p>
+                        </div>
+                        <div class="weui-cell__ft">向杰车队</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="weui-mask" id="imgMask" style="display: none"></div>
+        <div class="weui-actionsheet" id="actionsheet">
+            <div class="weui-actionsheet__title">
+                <p class="weui-actionsheet__title-text">更换头像</p>
+            </div>
+            <div class="weui-actionsheet__menu">
+                <div class="fileWord">相册选择</div>
+                <input id="uploaderInput" class="weui-actionsheet__cell weui-uploader__input" type="file" accept="image/*" multiple/>
+            </div>
+            <div class="weui-actionsheet__action">
+                <div class="weui-actionsheet__cell" id="actionsheetCancel">取消</div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="../../js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script src="https://res.wx.qq.com/open/libs/weuijs/1.2.1/weui.min.js"></script>
+<script src="../../js/personalInfo.js"></script>
+</html>

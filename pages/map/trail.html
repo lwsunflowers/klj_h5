@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+    <title>WeUI</title>
+    <link href="http://api.map.baidu.com/library/TrafficControl/1.4/src/TrafficControl_min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../../css/weui.css"/>
+    <link rel="stylesheet" href="../../css/example.css"/>
+    <link rel="stylesheet" href="../../css/main.css"/>
+    <link rel="stylesheet" href="../../css/map.css"/>
+</head>
+<body>
+<div class="page" id="container">
+    <div class="page__bd page js_show home" style="height: 100%;">
+        <div class="weui-tab">
+            <div class="weui-navbar">
+                <a class="pull-left weui-icon-back-arrow-thin" href="javascript:history.back(-1)"></a>
+                <div class="weui-navbar__item">
+                    轨迹回放
+                </div>
+                <a class="pull-right" id="choose">选择</a>
+            </div>
+            <div class="weui-tab__panel page__bd">
+                <div id="allmap"></div>
+            </div>
+            <!--弹窗-->
+            <div>
+                <div class="weui-actionsheet" id="actionsheet">
+                    <div class="weui-actionsheet__menu">
+                        <div class="weui-cell">
+                            <div class="weui-cell__hd"><label class="weui-label">选择车辆</label></div>
+                            <div class="weui-cell__bd">
+                                <input class="weui-input" autofocus type="text" value="晋M12343"/>
+                            </div>
+                            <div class="weui-cell__ft">
+                                <button class="weui-btn weui-btn_default weui-btn_mini">确定</button>
+                            </div>
+                        </div>
+                        <div class="weui-cell">
+                            <div class="weui-cell__hd"><label class="weui-label">时间段</label></div>
+                            <div class="weui-cell__bd">
+                                <div class="weui-cell">
+                                    <div class="weui-cell__hd"><label class="weui-label">开始时间</label></div>
+                                    <div class="weui-cell__bd">
+                                        <input class="weui-input" autofocus type="text" id="beginDate" placeholder="请选择开始时间"/>
+                                    </div>
+                                </div>
+                                <div class="weui-cell">
+                                    <div class="weui-cell__hd"><label class="weui-label">结束时间</label></div>
+                                    <div class="weui-cell__bd">
+                                        <input class="weui-input" autofocus type="text" id="endDate" placeholder="请选择结束时间"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="weui-cell">
+                            <div class="weui-cell__hd"><label class="weui-label">播放速度</label></div>
+                            <div class="weui-cell__bd">
+                                <div class="weui-slider-box">
+                                    <div class="weui-slider">
+                                        <div id="sliderInner" class="weui-slider__inner">
+                                            <div id="sliderTrack" style="width: 50%;" class="weui-slider__track"></div>
+                                            <div id="sliderHandler" style="left: 50%;" class="weui-slider__handler"></div>
+                                        </div>
+                                    </div>
+                                    <div id="sliderValue" class="weui-slider-box__value">正常</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="weui-actionsheet__action">-->
+                        <!--<div class="weui-actionsheet__cell" id="sheetSure">确定</div>-->
+                    <!--</div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="../../js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script src="https://res.wx.qq.com/open/libs/weuijs/1.2.1/weui.min.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=Uf9EolGIGFGD4p6DuzT6e0mhqTm1wtt6"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/library/TrafficControl/1.4/src/TrafficControl_min.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/library/MarkerClusterer/1.2/src/MarkerClusterer_min.js"></script>
+<script type="text/javascript" src="../../js/trail.js"></script>
+</html>

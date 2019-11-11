@@ -1,0 +1,29 @@
+.weui-navbar__item:after{
+    border:0px
+}
+.headImg img{
+    width:80px;
+    height:80px;
+    border-radius:80px
+}
+/*忘记密码*/
+.weui-form__control-area{
+    margin-top: 0px!important;
+}
+/*个人信息*/
+.weui-panel__bd{
+    background: white;
+}
+/*头像*/
+.personalImg img{
+    width:40px;
+    height:40px;
+    border-radius: 40px;
+}
+.fileWord{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 15px;
+}

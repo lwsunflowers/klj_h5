@@ -1,0 +1,15 @@
+/*登录页*/
+.register .weui-form__tips-area, .weui-form__extra-area{
+    margin-bottom: 0px;
+}
+/*tabbar*/
+.weui-navbar{
+    background-color:#F7F7F7 !important;
+}
+/*返回箭头*/
+.pull-left,.pull-right{
+    padding: 16px 0px;
+    margin:0px 10px;
+}
+/*地图*/
+#allmap {height: 100%;overflow: hidden;}

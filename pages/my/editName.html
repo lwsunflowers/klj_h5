@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+    <title>WeUI</title>
+    <link rel="stylesheet" href="../../css/weui.css"/>
+    <link rel="stylesheet" href="../../css/example.css"/>
+    <link rel="stylesheet" href="../../css/main.css"/>
+    <link rel="stylesheet" href="../../css/my.css"/>
+    <link href="http://api.map.baidu.com/library/TrafficControl/1.4/src/TrafficControl_min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="page">
+    <div class="page__bd page js_show home" style="height: 100%;">
+        <div class="weui-tab">
+            <div class="weui-navbar">
+                <a class="pull-left weui-icon-back-arrow-thin" href="javascript:history.back(-1)"></a>
+                <div class="weui-navbar__item">
+                    修改账号名称
+                </div>
+                <a class="pull-right "></a>
+            </div>
+            <div class="weui-form__control-area">
+                <div class="weui-cells__group weui-cells__group_form">
+                    <div class="weui-cells weui-cells_form">
+                        <div class="weui-cell">
+                            <div class="weui-cell__hd"><label class="weui-label">账号名称</label></div>
+                            <div class="weui-cell__bd">
+                                <input class="weui-input" autofocus type="text" pattern="[0-9]*" value="向杰车队" maxlength="16" />
+                                <button class="weui-btn_reset weui-btn_icon weui-btn_input-clear">
+                                    <i class="weui-icon-clear"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="weui-form__opr-area">
+                <a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips">确定</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="../../js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script src="https://res.wx.qq.com/open/libs/weuijs/1.2.1/weui.min.js"></script>
+</html>
