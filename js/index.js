@@ -64,3 +64,8 @@ function toast(mark){
         $toast.fadeOut(100);
     }, 2000);
 }
+
+$(".weui-icon-clear").click(function(){
+    console.log($(this));
+    console.log(111);
+});

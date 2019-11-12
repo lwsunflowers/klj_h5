@@ -19,7 +19,7 @@ $(function(){
     });
     $("#getCode").click(function(){
         if(tel==""){
-            toast("请输入电话号码");
+            toast("请输入正确的电话号码");
         }
     });
 });

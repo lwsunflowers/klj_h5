@@ -65,6 +65,7 @@ $.getJSON("../../json/position.json",function(positionJson){
             "</div>" +
             "<div class='weui-flex'>" +
             "<div class='weui-flex__item'><a class='weui-btn weui-btn_mini weui-btn_default' href='../../pages/map/trail.html'>轨迹回放</a></div>" +
+            "<div class='weui-flex__item'><a class='weui-btn weui-btn_mini weui-btn_default' href='../../pages/map/dynamic_trail.html'>动态轨迹</a></div>" +
             "<div class='weui-flex__item'><a class='weui-btn weui-btn_mini weui-btn_default' href='../../pages/map/sendMsg.html'>发送消息</a></div>" +
             "<div class='weui-flex__item'><a class='weui-btn weui-btn_mini weui-btn_default' onclick='voiceDialog()'>语音对讲</a></div>" +
             "<div class='weui-flex__item'><a class='weui-btn weui-btn_mini weui-btn_default' onclick='videoDialog()'>发送视频</a></div>" +
